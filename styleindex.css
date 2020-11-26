@@ -1,0 +1,107 @@
+body{
+		background-color:#010145;
+		margin:0;
+		border-left:5px solid gray;
+		border-right:5px solid gray;
+}
+
+img{	
+	opacity:0.75;
+}
+
+
+.login-box{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:25%;
+	transform:translate(-50%,-50%);
+	background-color:lime;
+	opacity:0.65;
+	border:5px solid #010145;
+	border-radius:50px;
+	text-align:center;
+}
+p,p1{
+	color:010145;
+	font-size:40;
+	font-weight:bold;
+	margin:20;
+}
+p1{
+	font-size:22;
+	font-style:italic;
+}
+
+
+input,select{
+	font-size:16px;
+	color:#010145;
+	padding:5px;
+	margin:5px;
+	border:none;
+	border-radius:10px;
+	box-shadow:0px 5px gray;
+	width:250px;
+}
+input:focus,select:focus,input:hover,select:hover{
+	outline:none;
+	box-shadow:0px 5px #010145;
+}
+.btn{
+	padding:5;
+	margin:5;
+	border-radius:10px;
+	border:none;
+	box-shadow:0px 5px gray;
+	width:125px;
+	font-size:18;
+	font-weight:bold;
+}
+.reg,.cancel{
+	color:#010145;
+}
+.login,.reg2{
+	background-color:#010145;
+	color:gray;
+}
+.btn:hover{
+	color:lime;
+	box-shadow:none;
+	position:relative;
+	top:5px;
+}
+option{
+	background-color:gray;
+	color:#010145;
+}
+
+
+.reg-box{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background-color:darkgray;
+	height:600px;
+	width:800px;
+	opacity:0.9;
+}
+.reg-form{
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:50%;
+	background-color:lime;
+	padding:0px 50px;
+	opacity:1;
+	border:5px solid #010145;
+	border-radius:50px;
+	text-align:center;
+}
+.reg-form label{
+	font-size:22;
+	color:#010145;
+	font-weight:bold;
+}
